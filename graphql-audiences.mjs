@@ -1,3 +1,9 @@
+// Primeiros passos:
+// 1. Criar variável de ambiente AUTH_KEY com o valor do cookie da Segment.
+// Pode usar um arquivo `.env` se quiser.
+// 2. Instalar dependências:
+// `npm install` ou `yarn`
+
 import { gql, GraphQLClient } from 'graphql-request';
 import dotenv from 'dotenv';
 dotenv.config();
